@@ -548,7 +548,7 @@ hiragana = [
 
 function compile(){
   let romaj = document.getElementById('textbox').value.toLowerCase();
-  let roma = romaj.match(/(([bksntmgjhwdrpyz]?[aeiou])|([ngpcrbsmdkhjt]?[yhzs]?(y)?[aeiou])|(n)|(\s)|([\?\!\.]))/g);
+  let roma = romaj.match(/(([bksntmgjhwfdrpyz]?[aeiou])|([ngpcrbsmdkhjt]?[yhzs]?(y)?[aeiou])|(n)|(\s)|([\?\!\.]))/g);
 
   let compiled = '';
 
