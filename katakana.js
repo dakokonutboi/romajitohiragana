@@ -548,7 +548,7 @@ katakana = [
 
 function compile(){
   let romaj = document.getElementById('textbox').value.toLowerCase();
-  let roma = romaj.match(/(([bksntmgjhwfdrpyz]?[aeiou])|([bksntmgjhwfdrpyz]{2}[aeiou])|([ngpcrbsmdkhjt]?[yhzs]?(y)?[aeiou])|(n)|(\s)|([\?\!\.]))/g);
+  let roma = romaj.match(/(([bksntmgjhwfdrpyz]?[aeiou])|([bksntmgjhwfdrpyz]{2}[aeiou])|([gpcrbsmdkhjt]?[yhzs]?(y)?[aeiou])|(n)|(\s)|([\?\!\.]))/g);
 
   let compiled = '';
 
