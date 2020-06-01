@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Romaji to Katakana</title>
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+      .input {
+        font-size: 18pt;
+      }
+      h1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 24pt;
+      }
+      h4 {
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+      .result {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 24pt;
+      }
+    </style>
+    <script type="text/javascript" src="katakana.js"></script>
+    <center>
+      <h1>Romaji to Katakana</h1>
+      <textarea autofocus class="input" id="textbox" oninput="compile()" cols="40" rows="5">Romaji</textarea><br>
+      <textarea class="result" id="katakanadisplay" cols="40" rows="5">ひらがな</textarea>
+      <h3>Need Romaji > Hiragana instead? <a href="https://dakokonutboi.github.io/romajitohiragana/index.html">Click here.</a></h3>
+      <h4>To report a bug/issue or for feature requests, <a href="https://github.com/dakokonutboi/romajitohiragana/issues">click here.</a></h4>
+      <h4>To view the source code, <a href="https://github.com/dakokonutboi/romajitohiragana">click here.</a></h4>
+    </center>
+  </body>
+</html>
