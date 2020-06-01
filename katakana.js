@@ -523,6 +523,26 @@ katakana = [
     kana: 'ピョ',
     roumaji: 'pyo',
     type: 'youon'
+  },
+  {
+    kana: ' ',
+    roumaji: ' ',
+    type: 'typing character'
+  },
+  {
+    kana: '?',
+    roumaji: '?',
+    type: 'typing character'
+  },
+  {
+    kana: '!',
+    roumaji: '!',
+    type: 'typing character'
+  },
+  {
+    kana: '。',
+    roumaji: '.',
+    type: 'typing character'
   }
 ];
 
